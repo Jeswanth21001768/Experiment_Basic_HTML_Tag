@@ -158,4 +158,4 @@ httpd.serve_forever()
 ![GitHub Logo](unknown.jpg)
 
 ## RESULT:
-A WebServer Has Been Created Successfully!
+A WebSite Has Been Created Successfully!
