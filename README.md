@@ -8,12 +8,25 @@ To develop a simple webserver to serve html pages.
 HTML content creation
 ### Step 2:
 
+<<<<<<< HEAD
+=======
+### STEP 4
+Execute the program fff
+>>>>>>> 4ece34a2a94921422b30391eee1c2074569fd159
 
 Design of webserver workflow
 ### Step 3:
 
+<<<<<<< HEAD
 Implementation using Python code
 ### Step 4:
+=======
+<body>
+<h1>Name: jeswanth</h1>
+<h3>Refno: 21001768 (SG) /h3>
+<h5>Dept.:Artificial Intelligence and Data Science</h5>
+</body>
+>>>>>>> 4ece34a2a94921422b30391eee1c2074569fd159
 
 Serving the HTML pages.
 ### Step 5:
@@ -32,6 +45,7 @@ content = """
         type = "image/x-icon">
 </head>
 <body>
+<<<<<<< HEAD
 
 <br><center><img src="https://media.discordapp.net/attachments/533340656987275284/906080541344956436/kissclipart-saveetha-university-chennai-logo-clipart-saveetha-3a90c06681798db2.png" alt="Saveetha Engineering College" style="width:100px;height:100px;"><h1>SAVEETHA ENGINEERING COLLEGE</center></h1></br>
 <br><h2>Student Detail</h2></br>
@@ -61,6 +75,11 @@ content = """
         </div>
       </div></br></br></center>
 
+=======
+<h1>Name: jeswanth</h1>
+<h3>Refno: 21001768 (SG) /h3>
+<h5>Dept.:Artificial Intelligence and Data Science</h5>
+>>>>>>> 4ece34a2a94921422b30391eee1c2074569fd159
 </body>
   <style>
     @font-face {
@@ -136,7 +155,7 @@ httpd.serve_forever()
 
 ```
 ## OUTPUT:
-![GitHub Logo](unknown.png)
+![GitHub Logo](unknown.jpg)
 
 ## RESULT:
 A WebServer Has Been Created Successfully!
