@@ -1,26 +1,3 @@
-# Developing a Simple Webserver
-## AIM:
-
-To develop a simple webserver to serve html pages.
-## DESIGN STEPS:
-### Step 1:
-
-HTML content creation
-### Step 2:
-
-
-Design of webserver workflow
-### Step 3:
-
-Implementation using Python code
-### Step 4:
-
-Serving the HTML pages.
-### Step 5:
-
-Testing the webserver
-## PROGRAM:
-```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -38,7 +15,7 @@ content = """
 <h3>Name: Jeswanth</h1>
 <h3>Reference Number: 21001768</h3>
 <h3>Department: B.Tech AI&DS</h6>
-<h3>Contact(Gmail): Jeswanth2k@gmail.com</h3>
+<h3>Contact(Gmail): jeswanth2k@gmail.com</h3>
 <center><br><br><div class="footer">
         <div class="container">
           <div class="row">
@@ -52,7 +29,7 @@ content = """
                   <a href=""><u>SRIJITH</u></a> and 
                   <a
                     href=""
-                    ><u>JESHWANTH</u></a
+                    ><u>JESWANTH</u></a
                   >
                 </p>
               </div>
@@ -133,10 +110,3 @@ server_address = ('',2004)
 httpd = HTTPServer(server_address,myhandler)
 print("Website is running...")
 httpd.serve_forever()
-
-```
-## OUTPUT:
-![GitHub Logo](unknown.png)
-
-## RESULT:
-A WebServer Has Been Created Successfully!
